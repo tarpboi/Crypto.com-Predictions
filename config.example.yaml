@@ -1,10 +1,11 @@
 # Crypto.com Predictions Trading Bot — example config.
 # Copy to `config.yaml` and fill in. NEVER commit your real config.yaml.
-# Full engine + all 20+ venue adapters:
+# Full engine:
 #   https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits
 
 venue: crypto.com_predictions   # adapter selector
 enable_trading: false               # ALWAYS start in dry-run
+# Use a dedicated wallet holding only the capital you intend to deploy.
 
 credentials:
   # Uncomment the block that matches Crypto.com Predictions.
@@ -27,7 +28,7 @@ risk:
   trade_floor:
     min_trade_size_usd: 5
 
-# Strategies available on Crypto.com Predictions. Toggle per your thesis.
+# Strategies mapped to Crypto.com Predictions. Toggle per your thesis.
 strategies:
   btc_arbitrage:
     enabled: true
