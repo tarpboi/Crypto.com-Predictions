@@ -18,7 +18,7 @@ These are the strategies mapped to Crypto.com Predictions. They run here once it
 | Strategy |
 |----------|
 | ⚡ **BTC 5m / 15m / 1hr Arbitrage** — speed on short-window BTC Up/Down |
-| 🎯 **Directional Arbitrage** — arb base (Up + Down < $1), tilted toward the side with more edge |
+| 🎯 **Directional Arbitrage** — rest Yes + No bids under $1, tilted toward the side with more edge |
 
 > Want a strategy not listed here on Crypto.com Predictions? Adapter coverage is demand-driven — [ask](https://t.me/tarpboi).
 
